@@ -25,7 +25,6 @@ namespace wsdlget
 
 		static void Main(string[] arguments)
 		{
-			arguments = new[] { "http://cassius.boxer.se/cassius/CassiusPartnerService.svc?wsdl" };
 			var args = new Arguments(arguments);
 			var url = args[""];
 	
